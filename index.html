@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drogaria Gabriela</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz;wgth;FILL;GRAD@48;400;0;0">
+     <script src="script.js" defer></script>
 </head>
 
-<body>
+<body class="show-chatbot">
     <div class="header">
         <div class="top-nav">
             <ul>
@@ -31,6 +33,29 @@
             <dic class="icon">
                 <img src="assets/arrow.png" alt="">
             </dic>
+        </div>
+    </div>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlinde">mode_comment</span>
+        <span class="material-symbols-outlinde">close</span>
+    </button>
+    <div class="chatbot">
+        <section>
+            <h2>chatbot</h2>
+            <span class="material-symbols-outlinde">close</span>
+        </section>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlinde"></span>
+                <p>Olá! <br> Eu sou a Gabriela e estou disponível para atendimento 24 horas por dia</p>
+            </li>
+            <li class="chat outgoing">
+                <p> Lorem ipsum dolor sit amet.<p>
+            </li>rem, ipsum dolor sit amet consectetur</p>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlinde">send</span>
         </div>
     </div>
 
